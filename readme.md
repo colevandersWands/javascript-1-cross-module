@@ -66,7 +66,7 @@ and [a whole bunch more emojis](https://gist.github.com/rxaviers/7360908) for fu
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| Home page | | | | |
+| Home page |:question: |it always console the discription of the object not name and link. I cant figure out the problem with if elase statment of print_deet function | | |
 | Team page | | | | |
 | Calc page | | | | |
 
