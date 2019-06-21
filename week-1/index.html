@@ -8,7 +8,9 @@
 
   <script type="text/javascript">
     // data (variables)
-      var parma, name, link, discription;
+    // these are not necessary, check the html bellow.  passing strings directly is simpler
+      var parma, name, link, discription; 
+    
     var project = {
        name: 'Project one',
        link: 'https://github.com/Berihugebre/javascript-1-cross-module/tree/master/week-1',
@@ -23,14 +25,26 @@
         } else 
             console.log('Discription:' + project.discription); 
         };   
+    /* we'll study objects & conditionals next week, so this will soon make more sense
+    function print_deet(object, property){
+        if(property === "name"){
+            // use the argument, not the global variable "project"
+            console.log('Project Name: ' + object.name);
+        }else if(property === "link"){
+            console.log('Link to Project : ' + object.link);
+        } else {
+            console.log('Discription: ' + object.discription); 
+        }
+    }; 
+    */
   </script>
 </head>
 
 <body>
   <h1>Welcome To Home Page</h1>
-  <button onclick="print_deet(name)">Project Name</button><br/>
-  <button onclick="print_deet(link)">Project Link</button><br/>
-  <button onclick="print_deet(discription)">Project Description</button>
+  <button onclick="print_deet(project, 'name')">Project Name</button><br/>
+  <button onclick="print_deet(project, 'link')">Project Link</button><br/>
+  <button onclick="print_deet(project, 'discription')">Project Description</button>
   <hr>
   <a href = "./team.html">Team website</a> <br/>
   <a href = "./calc.html">Calc page</a>
