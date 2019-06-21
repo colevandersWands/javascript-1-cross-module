@@ -26,14 +26,14 @@
             console.log('Discription:' + project.discription); 
         };   
     /* we'll study objects & conditionals next week, so this will soon make more sense
-    function print_deet(parma){
-        if(parma === "name"){
-            // use the argument "parma", not the global variable "project"
-            console.log('Project Name: ' + parma.name);
-        }else if(parma === "link"){
-            console.log('Link to Project : ' + parma.link);
+    function print_deet(object, property){
+        if(property === "name"){
+            // use the argument, not the global variable "project"
+            console.log('Project Name: ' + object.name);
+        }else if(property === "link"){
+            console.log('Link to Project : ' + object.link);
         } else {
-            console.log('Discription: ' + parma.discription); 
+            console.log('Discription: ' + object.discription); 
         }
     }; 
     */
@@ -42,9 +42,9 @@
 
 <body>
   <h1>Welcome To Home Page</h1>
-  <button onclick="print_deet('name')">Project Name</button><br/>
-  <button onclick="print_deet('link')">Project Link</button><br/>
-  <button onclick="print_deet('discription')">Project Description</button>
+  <button onclick="print_deet(project, 'name')">Project Name</button><br/>
+  <button onclick="print_deet(project, 'link')">Project Link</button><br/>
+  <button onclick="print_deet(project, 'discription')">Project Description</button>
   <hr>
   <a href = "./team.html">Team website</a> <br/>
   <a href = "./calc.html">Calc page</a>
