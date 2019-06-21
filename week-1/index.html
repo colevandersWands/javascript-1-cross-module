@@ -8,15 +8,28 @@
 
   <script type="text/javascript">
     // data (variables)
-
+      var parma, name, link, discription;
+    var project = {
+       name: 'Project one',
+       link: 'https://github.com/Berihugebre/javascript-1-cross-module/tree/master/week-1',
+       discription: 'This is our first project on javascript-1 week one' 
+    };
     // functions
-
+    function print_deet(parma){
+        if(name){
+            console.log('The Name of the Project is:' + project.name);
+        }else if(link){
+            console.log('The Link to the Project is :' + project.link);
+        } else 
+            console.log('The Discription of the Project is:' + project.discription); 
+        };   
   </script>
 </head>
 
 <body>
-  <h1>week 1 index.html</a>
-  <!-- delete this button when you're ready to start! -->
-  <a href="./example-to-study.html">example to study</a>
+  <h1>Welcome To Home Page</h1>
+  <button onclick="print_deet(name)">Project Name</button><br/>
+  <button onclick="print_deet(link)">Project Link</button><br/>
+  <button onclick="print_deet(discription)">Project Description</button>
 </body>
 </html>
