@@ -68,7 +68,7 @@ and [a whole bunch more emojis](https://gist.github.com/rxaviers/7360908) for fu
 | --- | --- | --- | --- | --- |
 | Home page |:white_check_mark: |Merged and fixed | | |
 | Team page |:white_check_mark:  | | | |
-| Calc page |:white_check_mark: | | | |
+| Calc page |:white_check_mark: |I'm not sure i did this part"button with onclick  takes in a and b, logs them to the console" | | |
 
 
 
