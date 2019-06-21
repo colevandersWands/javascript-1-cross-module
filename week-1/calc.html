@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>calc</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+      // data (variables)
+     var a = 10;
+     var b = 5;
+    // functions
+  function logAB(varA, varB){
+   console.log("The value of A is:"+varA+" and the value of B is:"+varB); 
+  }
+  function add(varA, varB){
+  console.log(varA +" plus "+ varB +" equals: ");  
+  console.log(varA+varB); 
+  }
+  function subtract(varA, varB){
+  console.log(varA +" minus "+ varB +" equals: ");   
+  console.log(varA-varB); 
+  }
+  function multiply(varA, varB){
+  console.log(varA +" times  "+ varB +" equals: ");  
+  console.log(varA*varB);
+  }
+  function divide(varA, varB){
+  console.log(varA +" divided by  "+ varB +" equals: ");  
+  console.log(varA/varB);
+  }
+  </script>
+</head>
+
+<body>
+  <h1> Welcome to  Calc Page </h1>
+
+  <table>
+  <form>
+    <tr>
+      <td><input id="buttonPrintLogAB" type="button" value="clickMeToPrintLogAB" onclick="logAB(a,b);" /></td> 
+      <td><input id="buttonPrintAdd" type="button" value="clickMeToPrintAdd" onclick="add(a,b);" /></td> 
+      <td><input id="buttonPrintSubtract" type="button" value="clickMeToPrintPrintSubtract" onclick="subtract(a,b);"/></td> 
+      <td><input id="buttonPrintMultiply" type="button" value="clickMeToPrintMultiply" onclick="multiply(a,b);" /></td> 
+      <td><input id="buttonPrintDivide" type="button" value="clickMeToPrintPrintDivide" onclick="divide(a,b);"/></td> 
+   </tr>
+  </form>
+</table>  
+  <ul>
+    <li class="orange"><a href="./index.html"> Go to Index Page</a> </li> 
+  </ul>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>team page</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+    // data (variables)
+    var teamName = "SWN => Still Without Name";
+    var teamMembers= ['Nelson Najarro','There\'s no one more yet'];
+    // functions
+    function printTeamName(strTeamName){
+     console.log("Our team name is: " + strTeamName);
+    }
+    function printTeamMember(arrayTeamMembers){
+     var i = 0;
+      console.log("Team members:");
+      for (i=0;i<arrayTeamMembers.length;i++){
+        console.log(arrayTeamMembers[i]);
+      }
+    } 
+   function printIntroduction(strTeamName,arrayTeamMembers) {
+     printTeamName(strTeamName);
+     printTeamMember(arrayTeamMembers);
+   }
+  </script>
+</head>
+<body>
+    <h1> Welcome to Team Page </h1>
+
+  <table>
+    <form>
+    <tr>
+     <td><input id="buttonPrintTeamName" type="button" value="clickMeToPrintTeamName" onclick="printTeamName(teamName);" /></td>
+     <td><input id="buttonPrintTeamMember" type="button" value="clickMeToPrintTeamMember" onclick="printTeamMember(teamMembers);" /></td>
+     <td><input id="buttonPrintIntroduction" type="button" value="clickMeToPrintPrintIntroduction" onclick="printIntroduction(teamName,teamMembers);"/></td>
+    </form>
+  </tr> 
+  </table>  
+  <ul>
+    <li class="orange"><a href="./index.html"> Go to Index Page</a> </li> 
+  </ul>
+</body>
+</html>
