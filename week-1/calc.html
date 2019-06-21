@@ -8,14 +8,39 @@
 
   <script type="text/javascript">
     // data (variables)
-
+    let a, b;
     // functions
-
+    function print_vals (a,b){
+    console.log(a, b);    
+    };
+    //addtion
+    function add(a, b){
+        return a + b;
+    }
+    // subtraction
+    function subtract(a, b){
+      return a - b;
+    }
+    //multiplication
+    function multiply(a , b){
+      return a * b;
+    }
+    //division
+    function divide(a, b){
+      return a/b;
+    }
   </script>
 </head>
 
 <body>
-
-
+    <h1>Welcome to Calc Page</h1> 
+    <hr>
+    <a href = "./Index.html">Home</a> 
+    <hr>
+    <button onclick="print_vals(a, b)">Enter a and b</button> <br>
+    <button onclick="console.log(add(a, b))">Add</button><br>
+    <button onclick="console.log(subtract(a, b))">Subtract</button><br>
+    <button onclick="console.log(multiply(a, b))">Multiply</button><br>
+    <button onclick="console.log(divide(a, b))">Divide</button>
 </body>
 </html>
