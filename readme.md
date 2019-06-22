@@ -66,9 +66,9 @@ and [a whole bunch more emojis](https://gist.github.com/rxaviers/7360908) for fu
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| Home page |:white_check_mark: |Merged and fixed | | |
-| Team page |:white_check_mark:  | fixed| | |
-| Calc page |:white_check_mark: | | | |
+| Home page |:white_check_mark: |Merged and fixed | :white_check_mark: | |
+| Team page |:white_check_mark:  | fixed| :white_check_mark: | |
+| Calc page |:white_check_mark: | | :white_check_mark: | |
 
 
 
