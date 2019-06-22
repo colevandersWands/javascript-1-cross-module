@@ -19,15 +19,15 @@
     let team_name = "Starks";
     let team_members = ["Berihu", "Fatma","Aimal"];
     // functions
-    function print_team_name(){
-        console.log("Welcome to: " + team_name);
+    function print_team_name(name){
+        console.log("Welcome to: " + name);
     }
-    function print_team_members(){
-        console.log("our team members: " + team_members);
-    } 
-    function introduce(){
-        print_team_name(team_name);
-        print_team_members(team_members);
+    function print_team_members(array_of_members){
+        console.log("our team members: " + array_of_members);
+    }   
+    function introduce(name, array_of_members){
+        print_team_name(name);
+        print_team_members(array_of_members);
     }
   </script>
 </head>
@@ -36,8 +36,8 @@
     <h1>Welcome to team page</h1> <br/>
     <a href = "./Index.html">Home</a>
     <hr>
-    <button onclick=" print_team_name()">team name</button> <br>
-    <button onclick="print_team_members()">Team Members</button> <br>
-    <button onclick="introduce()">Introduction</button>
+    <button onclick=" print_team_name(team_name)">team name</button> <br>
+    <button onclick="print_team_members(team_members)">Team Members</button> <br>
+    <button onclick="introduce(team_name, team_members)">Introduction</button>
 </body>
 </html>
