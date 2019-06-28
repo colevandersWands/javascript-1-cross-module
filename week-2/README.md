@@ -20,9 +20,9 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| Home page |:white_check_mark:  | | | |
-| Team page |:white_check_mark: | | | |
-| Calc page |:white_check_mark:  | | | |
+| Home page |:white_check_mark:  | | :green_heart: | |
+| Team page |:white_check_mark: | | :green_heart: | |
+| Calc page |:white_check_mark:  | | :green_heart: | the returns in do_math aren't necessary, but that's not a complaint. :+1: all arount |
 
 
 ---
